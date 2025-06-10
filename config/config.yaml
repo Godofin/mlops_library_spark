@@ -1,0 +1,20 @@
+mlflow_config:
+  tracking_uri: "mlruns"
+  experiment_name: "MLOps Library Demo with PySpark"
+
+model_params:
+  classification:
+    maxIter: 10
+    regParam: 0.1
+    elasticNetParam: 0.0
+  regression:
+    maxIter: 10
+    regParam: 0.1
+    elasticNetParam: 0.0
+  clustering:
+    k: 3
+    initSteps: 2
+    seed: 42
+  deep_learning: 
+    epochs: 5
+    batch_size: 32

@@ -1,0 +1,6 @@
+mlflow
+pyspark>=3.0.0
+pyyaml
+scikit-learn
+numpy
+pandas
